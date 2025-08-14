@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herbal Glow PK - Premium Skincare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <p>Free Shipping on Orders Over ₨ 14,000</p>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <h1>Herbal Glow PK</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="orders.html">Orders</a></li>
+                    <li><a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Natural Beauty, Glowing Skin</h2>
+                <p>Discover our premium range of herbal skincare products crafted for your perfect glow.</p>
+                <a href="products.html" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-box">
+                <i class="fas fa-leaf"></i>
+                <h3>100% Natural</h3>
+                <p>Pure herbal ingredients for healthy skin</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-certificate"></i>
+                <h3>Certified</h3>
+                <p>Dermatologically tested products</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-truck"></i>
+                <h3>Fast Delivery</h3>
+                <p>Quick and reliable shipping</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300/FFE4E1/000000?text=Herbal+Face+Serum" alt="Herbal Face Serum">
+                    <h3>Herbal Face Serum</h3>
+                    <p>Nourishing serum for radiant skin</p>
+                    <span class="price">₨ 6,997</span>
+                    <button class="btn buy-now">Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300/E0FFFF/000000?text=Natural+Moisturizer" alt="Natural Moisturizer">
+                    <h3>Natural Moisturizer</h3>
+                    <p>Hydration for all skin types</p>
+                    <span class="price">₨ 5,597</span>
+                    <button class="btn buy-now">Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300/FFFACD/000000?text=Herbal+Face+Wash" alt="Herbal Face Wash">
+                    <h3>Herbal Face Wash</h3>
+                    <p>Gentle cleansing for daily use</p>
+                    <span class="price">₨ 4,197</span>
+                    <button class="btn buy-now">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"My skin has never been better since I started using Herbal Glow products!"</p>
+                    <h4>- Sarah K.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Natural ingredients that really work. Highly recommended!"</p>
+                    <h4>- Michael T.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Herbal Glow PK</h3>
+                    <p>Premium herbal skincare products for your natural beauty.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@herbalglowpk.com</p>
+                    <p>Phone: +92 300 1234567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Herbal Glow PK. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+<!-- Delivery Details Form Modal -->
+    <div id="delivery-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Delivery Details</h2>
+            <form id="delivery-form">
+                <div class="form-group">
+                    <label for="customer-name">Full Name:</label>
+                    <input type="text" id="customer-name" name="customer-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="customer-email">Email:</label>
+                    <input type="email" id="customer-email" name="customer-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="customer-phone">Phone Number:</label>
+                    <input type="tel" id="customer-phone" name="customer-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="delivery-address">Delivery Address:</label>
+                    <textarea id="delivery-address" name="delivery-address" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="postal-code">Postal Code:</label>
+                    <input type="text" id="postal-code" name="postal-code" required>
+                </div>
+                <div class="form-group">
+                    <label for="payment-method">Payment Method:</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="">Select Payment Method</option>
+                        <option value="cash-on-delivery">Cash on Delivery</option>
+                        <option value="bank-transfer">Bank Transfer</option>
+                        <option value="easypaisa">EasyPaisa</option>
+                        <option value="jazzcash">JazzCash</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="product-name">Product:</label>
+                    <input type="text" id="product-name" name="product-name" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="product-price">Price (PKR):</label>
+                    <input type="text" id="product-price" name="product-price" readonly>
+                </div>
+                <button type="submit" class="btn">Proceed with Order</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
