@@ -1,0 +1,52 @@
+<!-- Delivery Details Form Modal -->
+<div id="delivery-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Delivery Details</h2>
+        <form id="delivery-form">
+            <div class="form-group">
+                <label for="customer-name">Full Name:</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+            </div>
+            <div class="form-group">
+                <label for="customer-email">Email:</label>
+                <input type="email" id="customer-email" name="customer-email" required>
+            </div>
+            <div class="form-group">
+                <label for="customer-phone">Phone Number:</label>
+                <input type="tel" id="customer-phone" name="customer-phone" required>
+            </div>
+            <div class="form-group">
+                <label for="delivery-address">Delivery Address:</label>
+                <textarea id="delivery-address" name="delivery-address" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="postal-code">Postal Code:</label>
+                <input type="text" id="postal-code" name="postal-code" required>
+            </div>
+            <div class="form-group">
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="">Select Payment Method</option>
+                    <option value="cash-on-delivery">Cash on Delivery</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                    <option value="easypaisa">EasyPaisa</option>
+                    <option value="jazzcash">JazzCash</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="product-name">Product:</label>
+                <input type="text" id="product-name" name="product-name" readonly>
+            </div>
+            <div class="form-group">
+                <label for="product-price">Price (PKR):</label>
+                <input type="text" id="product-price" name="product-price" readonly>
+            </div>
+            <button type="submit" class="btn">Proceed with Order</button>
+        </form>
+    </div>
+</div>
